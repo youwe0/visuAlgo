@@ -9,7 +9,7 @@ const Navbar = () => {
         </h1>
         <div className="flex gap-4 text-sm">
           <a
-            href="https://github.com/your-github"
+            href="#github"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"

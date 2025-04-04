@@ -2,7 +2,7 @@ import React from "react";
 
 const Visualizer = ({ array }) => {
   return (
-    <div className="my-10  w-full h-[60vh] flex items-end justify-center gap-[2px] p-4 bg-gray-100 rounded-lg shadow-inner overflow-hidden">
+    <div className="w-full h-[75vh] flex items-end justify-center gap-[2px] p-4 bg-gray-300 rounded-lg shadow-inner overflow-hidden">
       {array.map((item, index) => (
         <div
           key={index}
@@ -31,3 +31,4 @@ const getColorClass = (color) => {
 };
 
 export default Visualizer;
+

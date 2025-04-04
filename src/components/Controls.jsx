@@ -23,6 +23,7 @@ const Controls = ({
         >
           <option value="bubbleSort">Bubble Sort</option>
           <option value="selectionSort">Selection Sort</option>
+          <option value="mergeSort">Merge Sort</option> 
 
           {/* bhai or algorithm yha pe ghusa de uper vali line me */}
         </select>
