@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Controls from './components/Controls'
+import Visualizer from './components/Visualizer'
 // import { generateArray } from './utils/generateArray'
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <div>
         <Navbar />
         <Controls />
+        <Visualizer/>
         <div className='bg-red-400 rounded-md grid place-content-center  items-center h-15 m-4'>--------------    PROJECT VISUALGO    ---------------</div>
 
       </div>

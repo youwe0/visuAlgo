@@ -9,12 +9,10 @@ const Controls = ({
   setSize,
   generateArray,
   startVisualization,
-  isRunning
+  isRunning,
 }) => {
   return (
     <div className="bg-white shadow-md p-4 rounded-lg flex flex-wrap items-center justify-center gap-4 mt-4">
-
-      {/* Algorithm Selector */}
       <div className="flex flex-col items-start">
         <label className="text-sm font-medium">Algorithm</label>
         <select
@@ -25,13 +23,10 @@ const Controls = ({
         >
           <option value="bubbleSort">Bubble Sort</option>
           <option value="selectionSort">Selection Sort</option>
-          <option value="insertionSort">Insertion Sort</option>
-          <option value="mergeSort">Merge Sort</option>
-          <option value="quickSort">Quick Sort</option>
+
+          {/* bhai or algorithm yha pe ghusa de uper vali line me */}
         </select>
       </div>
-
-      {/* Speed Control */}
       <div className="flex flex-col items-start">
         <label className="text-sm font-medium">Speed</label>
         <input
@@ -43,8 +38,6 @@ const Controls = ({
           disabled={isRunning}
         />
       </div>
-
-      {/* Array Size Control */}
       <div className="flex flex-col items-start">
         <label className="text-sm font-medium">Array Size</label>
         <input
@@ -56,8 +49,6 @@ const Controls = ({
           disabled={isRunning}
         />
       </div>
-
-      {/* Buttons */}
       <div className="flex gap-2">
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
@@ -74,7 +65,6 @@ const Controls = ({
           Visualize
         </button>
       </div>
-
     </div>
   );
 };
