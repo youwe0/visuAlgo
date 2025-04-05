@@ -6,7 +6,7 @@ import { generateArray } from './utils/generateArray';
 import { bubbleSort } from './algorithms/sorting/bubbleSort';
 import { selectionSort } from './algorithms/sorting/selectionSort';
 import { mergeSort } from './algorithms/sorting/mergeSort';
-
+import AStarVisualizer from './components/AStarVisualizer';
 
 const App = () => {
   const [array, setArray] = useState([]);
@@ -106,6 +106,7 @@ const App = () => {
         isRunning={isRunning}
       />
       <Visualizer array={array} />
+      <AStarVisualizer />
     </div>
   );
 };

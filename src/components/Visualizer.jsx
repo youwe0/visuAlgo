@@ -30,5 +30,6 @@ const getColorClass = (color) => {
   }
 };
 
+
 export default Visualizer;
 
