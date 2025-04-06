@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { astar } from "../algorithms/pathfinding/astar";
+import { astar } from "../algorithms/Pathfinding/Astar";
 import { dfs } from "../algorithms/pathfinding/dfs";
 import { bfs } from "../algorithms/pathfinding/bfs";
 
